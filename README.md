@@ -5,19 +5,19 @@ Esta es una aplicación web que extrae y muestra las entidades más relevantes d
 -----------------------------------------------------------------------------
 Para ejecutar este proyecto, necesitas tener instalado lo siguiente:
 
-PHP 8.x
+- PHP 8.x
 
-Composer
+- Composer
 
-Node.js
+- Node.js
 
-NPM/Yarn
+- NPM/Yarn
 
-Python 3.x
+- Python 3.x
 
-Laravel 9.x
+- Laravel 9.x
 
-Clave de API de Google Cloud
+- Clave de API de Google Cloud
 
 -------------------------------------------------------------------------------
 #Instalación

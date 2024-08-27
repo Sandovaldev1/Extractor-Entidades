@@ -1,0 +1,91 @@
+/*Quitamos valores por defecto de los navegadores*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Estilos del nav*/
+.navbar{
+    background-color: #151983 !important;
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar .nav-link {
+    color: #ffffff !important;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+}
+
+/* Efecto al pasar el mouse */
+.nav-link:hover {
+    color: #ffdd57; /* Cambia el color del enlace al pasar el mouse */
+    transform: scale(1.1); /* Agranda ligeramente el enlace */
+}
+
+.navbar img{
+    width: 40px;
+    height: 40px;
+}
+
+/*Estilos del Jumbotron*/
+.jumbotron{
+    padding-top: 120px;
+}
+
+
+/*Estilos de la seccion 3*/
+.section-3{
+    margin-top: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #151983;
+}
+
+.content-box {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    height: 100%; /* Asegura que el cuadro ocupe toda la altura de la columna */
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Asegura que el contenido se centre verticalmente */
+}
+
+
+/*Medias queries*/
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    /* Ajustes específicos para móviles */
+
+    .col-md-6 {
+        padding: 0;
+    }
+}
+
+
+/* Estilos para pantallas grandes (escritorios pequeños) */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Ajustes específicos para escritorios pequeños */
+    .nav-name {
+        display: none !important;
+    }
+}
+
+@media (min-width: 993px) {
+    /* Estilos para escritorios grandes */
+    .nav-name {
+        display: none !important;
+    }
+}

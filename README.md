@@ -17,7 +17,7 @@ Python 3.x
 
 Laravel 9.x
 
-Clave de API de Google Cloud (La clave proporcionada tiene una vigencia de 48 horas)
+Clave de API de Google Cloud
 
 -------------------------------------------------------------------------------
 #Instalación
